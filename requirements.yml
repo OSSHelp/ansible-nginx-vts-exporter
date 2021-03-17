@@ -1,9 +1,6 @@
 ---
-- name: monit
-  src: https://oss.help/ansible/pub/roles/m/1/monit-stable.tar.gz
-
 - name: nginx
-  src: https://oss.help/ansible/pub/roles/n/2/nginx-stable.tar.gz
+  src: https://oss.help/ansible/pub/roles/n/3/nginx-stable.tar.gz
 
 - name: lxc-reboot
   src: https://oss.help/ansible/pub/roles/l/1/lxc-reboot-stable.tar.gz
