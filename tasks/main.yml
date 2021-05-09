@@ -5,6 +5,7 @@
     dest: "/usr/local/bin/"
     checksum: "{{ nginx_vts_exporter_sum }}"
     mode: 0755
+  when: not ansible_check_mode
   notify: restart nginx_vts_exporter service
 
 - name: configuration
